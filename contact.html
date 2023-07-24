@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title of the page -->
+  <title>Contact Us</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <!-- Hyperlinks for navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="climate.html">Climate</a>
+  </nav>
+  <!-- Heading for the Contact Us page -->
+  <h1>Contact Us</h1>
+  <!-- Contact Us Page -->
+  <!-- Create a separate contact.html file for the Contact Us page -->
+  <!-- Contact form -->
+  <form action="/tacos">
+    <!-- Input field for Name -->
+    <p>
+      <label for="name">Name:</label>
+      <!-- Required attribute makes this field mandatory -->
+      <input type="text" id="name" name="name" placeholder="Name" required />
+    </p>
+    <!-- Input field for Email ID -->
+    <p>
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" name="email" placeholder="Email" required />
+    </p>
+    <!-- Input field for City -->
+    <p>
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" placeholder="City" />
+    </p>
+    <!-- Input field for Contact No. -->
+    <p>
+      <label for="contact">Contact No.</label>
+      <!-- Maxlength attribute limits the number of characters in the field -->
+      <input type="text" id="contact" name="contact" placeholder="Contact" maxlength="10" />
+    </p>
+    <!-- Textarea for Message -->
+    <p>
+      <label for="message">Message:</label>
+      <!-- Required attribute makes this field mandatory -->
+      <textarea id="message" name="message" rows="4" cols="50" placeholder="Message" required></textarea>
+    </p>
+
+    <!-- Submit button to send the form data -->
+    <p>
+      <button>Submit</button>
+    </p>
+  </form>
+</body>
+
+</html>

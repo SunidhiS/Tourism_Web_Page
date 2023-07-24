@@ -1,0 +1,37 @@
+/* sets the background color of the page */
+* {
+  background-color: rgb(227, 221, 221);
+  color: rgb(3, 36, 65);
+}
+
+/* Styling for table, th, and td elements */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Styling for h1 */
+h1 {
+  text-decoration: underline;
+  text-shadow: 4px 4px 5px rgb(151, 149, 149);
+  text-align: center;
+}
+
+/* remove default text decoration for hyperlinks */
+a {
+  text-decoration: none;
+}
+
+/* styling for navigation links */
+a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/* change color after hovering over the button */
+button:hover {
+  background-color: black;
+  color: aliceblue;
+}
